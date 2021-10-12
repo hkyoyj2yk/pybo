@@ -1,5 +1,3 @@
-from django.apps import AppConfig
+from .base import *
 
-
-class PyboConfig(AppConfig):
-    name = 'pybo'
+ALLOWED_HOSTS = []
